@@ -3,8 +3,6 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.util.Scanner;
-import java.util.Random;
 public class InstrumentoNInercial {
 	private static final String IP = "localhost"; // Puedes cambiar a localhost
 	private static final int PUERTO = 1100; //Si cambias aquí el puerto, recuerda cambiarlo en el servidor
