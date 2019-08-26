@@ -33,11 +33,11 @@ La clase que debe ser ejecutada en CONSOLA es la siguiente:
 IMPORTANTE: En caso de necesitar usar los instrumentos en otra maquina cambiar la ip directamente desde la clase, para el caso de Usuario.java (o la interfaz a ser implementada que usa la clase User.java) la ip se la instancia desde el constructor de User.java
 
 Orden de ejecucion del programa
-	-ejecutar "ServidorConexionSQL.java" desde la IDE
-	-ejecutar "Servidor.java" desde consola con el siguiente comando:
+- ejecutar "ServidorConexionSQL.java" desde la IDE
+- ejecutar "Servidor.java" desde consola con el siguiente comando:
  ```
-		java -Djava.rmi.server.hostname=IpDeLaMaquina -Djava.security.policy=server.policy distribuidas.Servidor
+java -Djava.rmi.server.hostname=IpDeLaMaquina -Djava.security.policy=server.policy distribuidas.Servidor
  ```
-   Reemplazar IpDeLaMaquina por la IP de la maquina (-.-), es importante notar que el comando se lo ejecuta fuera del paquete, es decir "proyectoDistribuidas/Distribuidas/src", ademas las clases Server.java e Interfaz.java deben ser previamente compiladas con el comando "javac".
-	-ejecutar los instrumentos desde la IDE
-	-ejecutar el usuario
+Reemplazar IpDeLaMaquina por la IP de la maquina (-.-), es importante notar que el comando se lo ejecuta fuera del paquete, es decir "proyectoDistribuidas/Distribuidas/src", ademas las clases Server.java e Interfaz.java deben ser previamente compiladas con el comando "javac".
+- ejecutar los instrumentos desde la IDE
+- ejecutar el usuario
